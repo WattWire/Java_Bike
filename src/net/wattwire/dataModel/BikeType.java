@@ -5,6 +5,6 @@ package net.wattwire.dataModel;
  */
 public enum BikeType {
 
-    MOUNTAIN, ROAD, OTHER
+    MOUNTAIN, ROAD, TANDEM, OTHER
 
 }
