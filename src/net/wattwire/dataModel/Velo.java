@@ -11,18 +11,22 @@ public class Velo {
     private BikeColor color;
     private BikeType btype;
 
-    Velo (int nWheels, float rimSize, String catDesc,BikeColor color, BikeType btype)
+    public Velo (int nWheels, float rimSize, String catDesc,BikeColor color, BikeType btype)
     {
         this.nWheels = nWheels;
         this.rimSize = rimSize;
         this.catDesc = catDesc;
         this.color = color;
         this.btype = btype;
-
-
     }
 
+    @Override
+    public String toString(){
 
+        String s = "Hi! I'm the " + color.colorName + " "+catDesc;
 
+        return s;
+
+    }
 
 }
