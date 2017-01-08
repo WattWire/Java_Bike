@@ -1,7 +1,6 @@
 package net.wattwire;
 
-
-import static net.wattwire.BikeTesting.loadBikes;
+import static net.wattwire.bikeUtilities.BikeTesting.loadBikes;
 
 public class Main {
 
@@ -10,6 +9,5 @@ public class Main {
         loadBikes();
 
     }
-
 
 }
