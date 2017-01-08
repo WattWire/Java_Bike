@@ -1,4 +1,4 @@
-package net.wattwire;
+package net.wattwire.bikeUtilities;
 
 /**
  * Created by dave on 1/7/17.

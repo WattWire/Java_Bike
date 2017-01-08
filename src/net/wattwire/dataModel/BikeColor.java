@@ -8,6 +8,7 @@ public enum BikeColor {
 
     YELLOW("Yellow", 0xFFFF00),
     RED("Red",0xFF0000),
+    PURPLE("Purple",0x960096),
     BLACK("Black", 0x000000),
     WHITE("White", 0xFFFFFF),
     BLUE("Blue", 0x0000FF);

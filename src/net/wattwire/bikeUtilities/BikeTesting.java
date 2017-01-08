@@ -1,4 +1,4 @@
-package net.wattwire;
+package net.wattwire.bikeUtilities;
 
 import net.wattwire.dataModel.BikeColor;
 import net.wattwire.dataModel.BikeType;
@@ -7,7 +7,7 @@ import net.wattwire.dataModel.Velo;
 import java.util.ArrayList;
 import java.util.List;
 
-import static net.wattwire.BikeUtils.pstr;
+import static net.wattwire.bikeUtilities.BikeUtils.pstr;
 
 /**
  * Created by dave on 1/7/17.
@@ -16,6 +16,8 @@ public class BikeTesting {
 
 
     public static void loadBikes() {
+
+        // This is just an experiment with assigning an enum to a variable:
         BikeColor blue_bike = BikeColor.BLUE;
 
         //*** Note that List is an Interface; and ArrayList is a Class that implements it
@@ -30,7 +32,7 @@ public class BikeTesting {
                 BikeType.MTN),    // this an enum
 
                 tbike,
-                zurich;    // this another variable declared, but not assigned yet
+                zurich;    // another couple of variables declared, but not assigned yet
 
         zurich = new Velo(2,29f,"Zurich Roadster", blue_bike, BikeType.ROAD);
 
@@ -40,7 +42,7 @@ public class BikeTesting {
 
         //**** At this point we should have 3 bikes loaded into myBikes.
 
-        pstr(2,"Hello Bike Bitches!!!\n");
+        pstr(1,"Hello Bike Bitches!!!");
 
         tbike = myBikes.get(1);
 
